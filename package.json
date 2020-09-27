@@ -1,0 +1,47 @@
+{
+  "name": "template-node-express",
+  "version": "1.0.0",
+  "description": "Template Node Express",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon",
+    "lint": "eslint --fix --ext .ts src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodyGL/template-node-express.git"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "express"
+  ],
+  "author": "RodyGL",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/RodyGL/template-node-express/issues"
+  },
+  "homepage": "https://github.com/RodyGL/template-node-express#readme",
+  "dependencies": {
+    "cuid": "2.1.8",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.8",
+    "@types/node": "14.11.2",
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "nodemon": "2.0.4",
+    "prettier": "2.1.2",
+    "ts-node": "9.0.0",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "4.0.3"
+  }
+}
